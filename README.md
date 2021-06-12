@@ -5,7 +5,7 @@
 
 ### Entry
 As part of a study project, I have written a code to play bingo in a very simple version.
-The Bingo.java creates a multidimensional matrix with 5x5 fields as an 2D-array, generate 25 pseudo-random numbers with a mersenne-twister (seed: 2^19937 -1), set them in a hashset to be unique between the array, generate 5 more numbers with the same periodity in antoher hashset as the "conférencier" and compare the arrays.
+The Bingo.java creates a multidimensional matrix with 5x5 fields as an 2D-array, generate 20 (default) pseudo-random numbers with a mersenne-twister (seed: 2^19937 -1), set them in a hashset to be unique between the array, generate 5 more numbers with the same periodity in antoher hashset as the "conférencier" and compare the arrays.
 If there are the 5 numbers equal to five numbers in the cardset, the code try to find if the numbers are in a row, a colum or diagonal.
 When they are, the code throws a "BINGO"
 
